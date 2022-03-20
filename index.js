@@ -31,8 +31,8 @@ require('./kurr.js')
 nocache('./kurr.js', module => console.log(`${module} is now updated!`))
 
 const starts = async (kurr = new WAConnection()) => {
-	console.log(color('SOURCE CODE INI DIJAGA DAN DI LINDUNGI OLEH KURRXD\n\n', 'orange'), color('\n======TERIMKASIH BANYAK KEPADA======\n•Aldy Fauzy\n•Kemol\n•ADI\n•KurrXd\n•YUDHA\n•PAJARn•Dcode Denpa\n•Finx\n•SELURUH SUBSCRIBERKU', 'yellow'))
-	console.log(color('\n\nJANGAN DI JUAL  BRO😑\nKALAU ADA YG JUAL SURUH CHAT ©KurrXd\nWA 6281220670449', 'pink'))
+	console.log(color('SOURCE CODE INI DIJAGA DAN DI LINDUNGI OLEH verdi\n\n', 'orange'), color('\n======TERIMKASIH BANYAK KEPADA======\n•Aldy Fauzy\n•Kemol\n•ADI\n•KurrXd\n•YUDHA\n•PAJARn•Dcode Denpa\n•Finx\n•verdi gw', 'yellow'))
+	console.log(color('\n\nJANGAN DI JUAL  BRO😑\nKALAU ADA YG JUAL SURUH CHAT verdibotz\nWA 6283869803330', 'pink'))
     kurr.logger.level = 'warn'
     kurr.version = [2, 2143, 3]
     kurr.browserDescription = [ 'kurr', 'Chrome', '3.0' ]
@@ -57,7 +57,7 @@ const starts = async (kurr = new WAConnection()) => {
 
     kurr.on('chat-update', async (message) => {
         require('./kurr.js')(kurr, message)
-        ownerNumber = ["6281220670449@s.whatsapp.net","6281220670449@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        ownerNumber = ["6283869803330@s.whatsapp.net","6283869803330@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
         dtod = "6281220670449@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
@@ -154,9 +154,9 @@ quoted: {
 "groupInviteMessage": {
 "groupJid": "628983583288-1620319322@g.us",
 "inviteCode": "NgsCIU2lXKh3VHJT",
-"groupName": "IstMekurr",
+"groupName": "VERDI BOT",
 "jpegThumbnail": fs.readFileSync('./media/thumb.jpg'),
-"caption": `kurr XD`
+"caption": `VERDI BOTZ`
 }
 
 }
@@ -177,9 +177,9 @@ quoted: {
 "groupInviteMessage": {
 "groupJid": "628983583288-1620319322@g.us",
 "inviteCode": "NgsCIU2lXKh3VHJT",
-"groupName": "IstMekurr",
+"groupName": "XD",
 "jpegThumbnail": fs.readFileSync('./media/thumb.jpg'),
-"caption": `kurr XD`
+"caption": `verdi botz`
 }
 }
 }
